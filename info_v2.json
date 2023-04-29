@@ -1,0 +1,105 @@
+[
+  {
+    "name": "UNACADEMY",
+    "url": "https://unacademy.com/api/v3/user/user_check/?enable-email=true",
+    "headers": {},
+    "body": {
+      "phone": "",
+      "country_code": "IN",
+      "otp_type": 1,
+      "email": "",
+      "send_otp": true,
+      "is_un_teach_user": false
+    }
+  },
+  {
+    "name": "INDIA MART",
+    "url": "https://login.indiamart.com/users/OTPVerification/",
+    "headers": {},
+    "body": {
+      "token": "imobile@15061981",
+      "mobile_num": "",
+      "glusrid": 124831621,
+      "user_mobile_country_code": 91,
+      "flag": "OTPGen",
+      "user_ip": "127.0.0.1",
+      "user_country": "IN",
+      "process": "OTP_Login_Desktop",
+      "user_updatedusing": "Login With OTP Form Desktop",
+      "modid": "MY"
+    }
+  },
+  {
+    "name": "NNNOW",
+    "url": "https://api.nnnow.com/d/apiV2/otp/resendOtp/v1/flash",
+    "headers": {},
+    "body": {
+      "mobileNumber": "",
+      "otpTemplateId": "5b4e2e49b70e040008ffbcbe",
+      "sessionId": "644a66fb0da090000a86c446"
+    }
+  },
+  {
+    "name": "OCTAVE",
+    "url": "https://engine.kartmax.in/api/cart/v1/customer/send-otp",
+    "headers": { "origin": "https://www.octave.co.in" },
+    "body": { "phone": "" }
+  },
+  {
+    "name": "NEERA",
+    "url": "https://63ti5s0o80.execute-api.ap-south-1.amazonaws.com/Prod/nirawebloginapi",
+    "headers": {},
+    "body": { "mobileNumber": "", "otp": "" }
+  },
+  {
+    "name": "PLANT FASHION",
+    "url": "https://www.planetfashion.in/capillarylogin/resendOTP?isAjax=true",
+    "headers": {},
+    "body": {
+      "mobile": "",
+      "register": "register",
+      "module": "register",
+      "firstName": "register"
+    }
+  },
+  {
+    "name": "STRIKE CLUB",
+    "url": "https://api.strikergame.com/appLink",
+    "headers": {},
+    "body": { "mobileNo": "", "type": "" }
+  },
+  {
+    "name": "BAJAJ FINANCE",
+    "url": "https://www.bajajfinserv.in/MyAccountLogin/Login/GetOTP",
+    "headers": {},
+    "body": {
+      "CLType": "INDIVIDUAL",
+      "Mobile_Email": "",
+      "DOB": "01/01/2000",
+      "Source": "Login",
+      "LoginType": 1
+    }
+  },
+  {
+    "name": "ZOMATO",
+    "url": "https://accounts.zomato.com/login/phone",
+    "headers": {},
+    "body": {
+      "country_id": 1,
+      "number": "",
+      "type": "initiate",
+      "csrf_token": "aaaaaaaaaaaaaaaaa",
+      "lc": "bbbbbbbbbbbbbb",
+      "verification_type": "sms"
+    }
+  },
+  {
+    "name": "TRUEMADLY",
+    "url": "https://app.trulymadly.com/api/auth/mobile/v1/send-otp",
+    "headers": {},
+    "body": {
+      "country_code": "91",
+      "mobile": ""
+    }
+  }
+]

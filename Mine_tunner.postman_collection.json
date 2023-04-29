@@ -1,0 +1,509 @@
+{
+	"info": {
+		"_postman_id": "b4ec11b8-1e2f-4ff5-89bf-8bcf7df0f369",
+		"name": "Mine_tunner",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22448611"
+	},
+	"item": [
+		{
+			"name": "UnAc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"9877963748\",\"country_code\":\"IN\",\"otp_type\":1,\"email\":\"\",\"send_otp\":true,\"is_un_teach_user\":false}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://unacademy.com/api/v3/user/user_check/?enable-email=true",
+					"protocol": "https",
+					"host": [
+						"unacademy",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"user",
+						"user_check",
+						""
+					],
+					"query": [
+						{
+							"key": "enable-email",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InMart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "token",
+							"value": "imobile@15061981",
+							"type": "text"
+						},
+						{
+							"key": "mobile_num",
+							"value": "9478531059",
+							"type": "text"
+						},
+						{
+							"key": "glusrid",
+							"value": "124831621",
+							"type": "text"
+						},
+						{
+							"key": "user_mobile_country_code",
+							"value": "91",
+							"type": "text"
+						},
+						{
+							"key": "flag",
+							"value": "OTPGen",
+							"type": "text"
+						},
+						{
+							"key": "user_ip",
+							"value": "127.0.0.1",
+							"type": "text"
+						},
+						{
+							"key": "user_country",
+							"value": "IN",
+							"type": "text"
+						},
+						{
+							"key": "process",
+							"value": "OTP_Login_Desktop",
+							"type": "text"
+						},
+						{
+							"key": "user_updatedusing",
+							"value": "Login With OTP Form Desktop",
+							"type": "text"
+						},
+						{
+							"key": "modid",
+							"value": "MY",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login.indiamart.com/users/OTPVerification/",
+					"protocol": "https",
+					"host": [
+						"login",
+						"indiamart",
+						"com"
+					],
+					"path": [
+						"users",
+						"OTPVerification",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NnN",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobileNumber\":\"9478531059\",\"otpTemplateId\":\"5b4e2e49b70e040008ffbcbe\",\"sessionId\":\"644a66fb0da090000a86c446\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.nnnow.com/d/apiV2/otp/resendOtp/v1/flash",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nnnow",
+						"com"
+					],
+					"path": [
+						"d",
+						"apiV2",
+						"otp",
+						"resendOtp",
+						"v1",
+						"flash"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Octa",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "origin",
+						"value": "https://www.octave.co.in",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"9877963748\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://engine.kartmax.in/api/cart/v1/customer/send-otp",
+					"protocol": "https",
+					"host": [
+						"engine",
+						"kartmax",
+						"in"
+					],
+					"path": [
+						"api",
+						"cart",
+						"v1",
+						"customer",
+						"send-otp"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "9478531059",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Neera",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobileNumber\":\"9478531059\",\"otp\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://63ti5s0o80.execute-api.ap-south-1.amazonaws.com/Prod/nirawebloginapi",
+					"protocol": "https",
+					"host": [
+						"63ti5s0o80",
+						"execute-api",
+						"ap-south-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"Prod",
+						"nirawebloginapi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pfash",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "mobile",
+							"value": "9877963748",
+							"type": "text"
+						},
+						{
+							"key": "register",
+							"value": "register",
+							"type": "text"
+						},
+						{
+							"key": "module",
+							"value": "register",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "register",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.planetfashion.in/capillarylogin/resendOTP?isAjax=true",
+					"protocol": "https",
+					"host": [
+						"www",
+						"planetfashion",
+						"in"
+					],
+					"path": [
+						"capillarylogin",
+						"resendOTP"
+					],
+					"query": [
+						{
+							"key": "isAjax",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "StrikerC",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"mobileNo\":\"9478531059\",\"type\":\"\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.strikergame.com/appLink",
+					"protocol": "https",
+					"host": [
+						"api",
+						"strikergame",
+						"com"
+					],
+					"path": [
+						"appLink"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BajFnc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "CLType",
+							"value": "INDIVIDUAL",
+							"type": "text"
+						},
+						{
+							"key": "Mobile_Email",
+							"value": "9478531059",
+							"type": "text"
+						},
+						{
+							"key": "DOB",
+							"value": "01/01/2000",
+							"type": "text"
+						},
+						{
+							"key": "Source",
+							"value": "Login",
+							"type": "text"
+						},
+						{
+							"key": "LoginType",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.bajajfinserv.in/MyAccountLogin/Login/GetOTP",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bajajfinserv",
+						"in"
+					],
+					"path": [
+						"MyAccountLogin",
+						"Login",
+						"GetOTP"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Zomato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "country_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "number",
+							"value": "9478531059",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "initiate",
+							"type": "text"
+						},
+						{
+							"key": "csrf_token",
+							"value": "dsfsadfsdfsdfsdf",
+							"type": "text"
+						},
+						{
+							"key": "lc",
+							"value": "dsfsdfsdfdsfsdfsda",
+							"type": "text"
+						},
+						{
+							"key": "verification_type",
+							"value": "sms",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://accounts.zomato.com/login/phone",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"zomato",
+						"com"
+					],
+					"path": [
+						"login",
+						"phone"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agora Video - 1 Minute",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"phone\":\"+91 94785 31059\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sso2.agora.io/api/v0/secure/sms-captcha",
+					"protocol": "https",
+					"host": [
+						"sso2",
+						"agora",
+						"io"
+					],
+					"path": [
+						"api",
+						"v0",
+						"secure",
+						"sms-captcha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dating-TrueMadly",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "country_code",
+							"value": "91",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "9478531059",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://app.trulymadly.com/api/auth/mobile/v1/send-otp",
+					"protocol": "https",
+					"host": [
+						"app",
+						"trulymadly",
+						"com"
+					],
+					"path": [
+						"api",
+						"auth",
+						"mobile",
+						"v1",
+						"send-otp"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
